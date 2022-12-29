@@ -3,21 +3,16 @@ margin: 0;
 padding: 0;
 }
 
-html, body{
-    height: 100%;
-}
-
 body{
+    background-color: green;
     font-family: 'Raleway', sans-serif;
     color: white;
-    background: rgb(54,77,204);
-    background: linear-gradient(190deg, rgba(54,77,204,1) 0%, rgba(5,15,68,1) 100%);
 }
 
 .avatar{
     width: 80px;
     border-radius: 50px;
-    border: 3px solid white;
+    border: 3px solid rgb(73, 68, 68);
     box-shadow: 0 0 20px white;
 
 }
@@ -32,6 +27,12 @@ h1{
 h2{
     font-size: 16px;
     
+}
+
+h4{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif
 }
 
 .profile{
@@ -60,16 +61,16 @@ h2{
 
 .links-list li a {
     display: block;
-    background: white;
+    background: rgba(58, 112, 43, 0.963);
     padding: 15px 20px;
     border-radius: 4px;
     text-decoration: none;
-    color:rgb(54,77,204) ;
+    color:rgba(242, 136, 136, 0.799) ;
     font-weight: bold;
 }
 
 .links-list li a span {
-    color: gray;
+    color: rgb(237, 194, 194);
     display: block;
     margin-top: 10px;
 }
